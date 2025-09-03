@@ -208,7 +208,7 @@ ul {
 }
 
 .main-features-item {
-    width: calc((100%-72px)/4);
+    width: calc((100%-72px) / 4);
 }
 
 .main-features-caption {
@@ -234,10 +234,14 @@ ul {
 /* SECTION 2 - OUR TEAM */
 
 .main-team {
+    padding: 120px 0;
+
     background-color: #F4F4FD;
 }
 
 .main-team-title {
+    margin-bottom: 72px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -251,16 +255,28 @@ ul {
 }
 
 .main-team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .main-team-item {
+    width: calc((100% - 72px) / 4);
+
     background: #ffffff;
+    border-radius: 0 0 4px 4px;
+}
+
+.main-team-item-texts {
+    padding: 32px;
 }
 
 .main-team-img {
 }
 
 .main-team-caption {
+    margin-bottom: 8px;
+    text-align: center;
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -273,6 +289,8 @@ ul {
 }
 
 .main-team-text {
+    text-align: center;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
