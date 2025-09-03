@@ -9,9 +9,31 @@ body {
     color: #434455;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* HEADER */
 .header {
-    justify-content: space-between;
 }
 
 .header-nav {
@@ -25,7 +47,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
 .header-logo {
@@ -33,8 +54,6 @@ body {
 }
 
 .header-menu-list {
-    list-style: none;
-    margin: 0;
 }
 
 .header-menu-link {
@@ -44,7 +63,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
 }
 
 .header-menu-link:hover,
@@ -62,8 +80,6 @@ body {
 }
 
 .header-contacts-list {
-    list-style: none;
-    margin: 0;
 }
 
 .header-contacts-item {
@@ -75,7 +91,6 @@ body {
 }
 
 .header-contacts-link {
-    text-decoration: none;
     color: #434455;
 }
 
@@ -87,14 +102,11 @@ body {
 /* MAIN CONTENTS */
 
 .main {
-    justify-content: center;
 }
 
 
 .main-hero {
     background: #2e2f42;
-
-    justify-content: center;
 }
 
 .main-hero-title {
@@ -105,7 +117,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    margin: 0;
 }
 
 .main-hero-btn {
@@ -123,10 +134,7 @@ body {
     color: #ffffff;
 }
 
-.main-hero-btn:hover{
-    background-color: #404BBF;
-}
-
+.main-hero-btn:hover,
 .main-hero-btn:focus{
     background-color: #404BBF;
 }
@@ -134,7 +142,6 @@ body {
 /* SECTION 1 - FEATURES */
 
 .main-features {
-    justify-content: center;
 }
 
 .main-features-title {
@@ -145,9 +152,6 @@ body {
 }
 
 .main-features-list {
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
 }
 
 .main-features-item {
@@ -160,7 +164,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin: 0;
 }
 
 .main-features-text {
@@ -170,14 +173,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
 }
 
 /* SECTION 2 - OUR TEAM */
 
 .main-team {
     background-color: #F4F4FD;
-    justify-content: flex-start;
 }
 
 .main-team-title {
@@ -194,15 +195,9 @@ body {
 }
 
 .main-team-list {
-    list-style: none;
-    
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
 }
 
 .main-team-item {
-    justify-content: center;
     background: #ffffff;
 }
 
@@ -236,7 +231,6 @@ body {
 /* SECTION 4 - PORTFOLIO */
 
 .main-portfolio {
-    justify-content: flex-start;
 }
 
 .main-portfolio-title {
@@ -253,10 +247,6 @@ body {
 }
 
 .main-portfolio-list {
-    list-style: none;
-    justify-content: space-between;
-    margin: 0;
-    flex-wrap: wrap;
 }
 
 .main-portfolio-item {
@@ -303,7 +293,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #4d5ae5;
 }
 
@@ -318,5 +307,4 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin: 0;
 }
